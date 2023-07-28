@@ -8,7 +8,7 @@ public class MathFunc {
 
     public static int func2(int x) {
         int y = 10 / x;
-        return x;
+        return y;
     }
 
     public static void main(String[] args) {
