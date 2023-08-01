@@ -1,6 +1,7 @@
 package ru.job4j.condition;
 
 import org.junit.jupiter.api.Test;
+
 import static org.assertj.core.api.Assertions.*;
 
 class SqAreaTest {
@@ -15,7 +16,7 @@ class SqAreaTest {
     }
 
     @Test
-    void whenP8K4Square2() {
+    void whenP8K4Square2dot56() {
         double expected = 2.56;
         int p = 8;
         double k = 4;
@@ -24,7 +25,7 @@ class SqAreaTest {
     }
 
     @Test
-    void whenP10K5Square3() {
+    void whenP10K5Square3dot47() {
         double expected = 3.47;
         int p = 10;
         double k = 5;
