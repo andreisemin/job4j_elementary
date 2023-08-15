@@ -17,11 +17,7 @@ public class SimpleStringEncoder {
                 counter = 1;
             }
         }
-        if (counter == 1) {
-            result += symbol;
-        } else {
-            result += symbol + String.valueOf(counter);
-        }
+        result += (counter == 1) ? symbol : symbol + String.valueOf(counter);
         return result;
     }
 }
